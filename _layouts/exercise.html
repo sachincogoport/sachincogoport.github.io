@@ -1,0 +1,28 @@
+---
+layout: default
+comments: true
+---
+
+<article class="post">
+
+  <div class="entry">
+    <div class="mode_btn view_question_source">
+
+    </div>
+
+    {{ content }}
+  </div>
+</article>
+
+<script>
+  var baseurl="https://github.com/SachinAIMA/sachinAIMA.github.io/edit/master/markdown/";
+  var baseurl2="https://github.com/SachinAIMA/sachinAIMA.github.io/edit/master/_data/answers/"
+  var chapterName = String('{{ page.breadcrumb }}');
+  var exerciseName = String('{{ page.breadcrumb2 }}');
+  var chapterNamestripped = String('{{ page.breadcrumb3 }}');
+  document.getElementById("editt_question").href = baseurl+chapterName+"/exercises/"+exerciseName+"/question.md";
+  document.getElementById("solve_question").href = baseurl2+chapterNamestripped+"/"+exerciseName+".yaml";
+  document.getElementById("add_comment").href = baseurl2+chapterNamestripped+"/"+exerciseName+".yaml";
+  document.getElementById("addcoment").href = baseurl2+chapterNamestripped+"/"+exerciseName+".yaml";
+
+</script>
