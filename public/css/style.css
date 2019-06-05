@@ -50,7 +50,7 @@ li {
   margin: 3px;
 }
 ul > li {
-  border: 1px solid black;
+  border-bottom: 3px solid black;
   font size: 80%;
 }
 li > ul > li {
@@ -70,4 +70,9 @@ ul > li > ul > li > ul > li > li{
 }
 ul:first-child ul > li  {
   color: #534A4A;
+}
+#borderbottom {
+  border-bottom: 3px solid black;
+  padding-bottom: 2px;
+  
 }

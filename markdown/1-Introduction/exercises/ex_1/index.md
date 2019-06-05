@@ -69,7 +69,7 @@ breadcrumb3: 1introduction
 
 
 
-<div class="card">
+<div class="card" id="borderbottom">
     <div class="card-header p-2">
         <a href="#" class="p-2">Student Answers</a>
 
