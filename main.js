@@ -40,7 +40,7 @@ if (y.style.display === "none") {
 }
 };
 function myFunction4()  {
-  var z = document.getElementsByTagName("ul");
+  var z = document.getElementById("hideandviewusersolution");
   if (z.style.display === "none") {
     z.style.display = "block";
   } else {

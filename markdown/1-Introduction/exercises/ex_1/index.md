@@ -79,13 +79,17 @@ breadcrumb3: 1introduction
         </button>
         </a>
 
-        <a class="viewcommsolution" id="viewcommsolution" href="#">
-        <button type="button" class="btn btn-dark float-right" title="View Answers" style="margin-left:10px; margin-right:10px;" id="viewanswers" >
-        <i id="view_answers1" class="fas fa-bars" style="color:white"></i>
+        <a class="viewusersolution" id="viewusersolution" href="#">
+        <button type="button" class="btn btn-dark float-right" title="View Answers" style="margin-left:10px; margin-right:10px;" id="viewanswers" onclick="myFunction4()" href="#" >
+        <i class="fas fa-bars" style="color:white"></i>
         </button>
         </a>
 
 
 </div>
-</div>
+<div class="card-body" id="hideandviewusersolution" markdown="1">
+
 {% include_relative answers/useranswers.yaml %}
+
+</div>
+</div>
